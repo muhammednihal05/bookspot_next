@@ -1,0 +1,48 @@
+.loginParentDiv {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    padding-left: 325px;
+    padding-top: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+    background-color: lightblue;
+  }
+  
+  .loginParentDiv .input {
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: black;
+    outline-color: black;
+    width: 50%;
+    background-color: white;
+  }
+  
+  .loginParentDiv button {
+    width: 50%;
+    height: 48px;
+    /* border-color: transparent; */
+    background-color: #002f34;
+    color: whitesmoke;
+    font-weight: 900;
+  }
+  .loginParentDiv button:hover {
+    background-color: white;
+    color: #002f34;
+    border: 2px solid #002f34;
+  }
+  
+  .loginParentDiv a {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .details_head{
+        text-align: justify;
+        text-shadow: #002f34;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+  }
