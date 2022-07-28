@@ -8,7 +8,7 @@
     width: 100%;
     max-height: 400px;
     min-width: 100px;
-    background-color: white;
+    background-color: lightblue;
     z-index: 1;
 }
 .product > img{

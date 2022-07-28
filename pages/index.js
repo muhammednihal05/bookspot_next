@@ -15,7 +15,7 @@ function Home() {
             <img className={styles.bg_image} src='./Bookspot.png' alt='logo'/>
             <div class={styles.button_items}>
                 <button className="" type='button' onClick={() => Router.push('/sell')}><div class={styles.sell_button}><MdSell className={styles.sell_logo}/><br/><b>SELL</b></div></button>
-                <div class={styles.buy_button}><ImBooks className={styles.buy_logo}/><br/><b>BUY</b></div>
+                <button className="" type='button' onClick={() => Router.push('/ap_1')}><div class={styles.buy_button}><ImBooks className={styles.buy_logo}/><br/><b>BUY</b></div></button>
                 <div class={styles.request_button}><ImBooks className={styles.buy_logo}/><br/><b>REQUEST BOOK</b></div>
                 {/* <div class={styles.buy_button}><ImBooks className={styles.buy_logo}/><br/><b>FREE BOOKS</b></div> */}
             </div>

@@ -19,7 +19,7 @@ function Header() {
         <div className="flex flex-row justify-between space-x-4 text-white">
             <p className="">Auction</p>
             <div>
-                  <button className="" type='button' onClick={() => Router.push('/login')}>Log in</button>
+                  <button className="login_b" type='button' onClick={() => Router.push('/login')}>Log in</button>
                   <GrLogin/>
                   
             </div>
