@@ -2,7 +2,8 @@ import React from 'react';
 import Router from 'next/router';
 import styles from "../styles/Header.module.css";
 import { FaSearch } from 'react-icons/fa';
-import { GrLogin } from 'react-icons/gr';
+// import { GrLogin } from 'react-icons/gr';
+// import { AiFillShopping } from 'react-icons/ai';
 
 
 
@@ -16,11 +17,12 @@ function Header() {
             <FaSearch className={styles.header_searchIcon}/>
             
         </div>
-        <div className="flex flex-row justify-between space-x-4 text-white">
-            <p className="">Auction</p>
+        <div className="flex flex-row justify-between space-x-4 text-white ">
+            <button className="login_b" type='button' onClick={() => Router.push('/ap_1')}>Auction</button>
+            {/* <AiFillShopping/> */}
             <div>
                   <button className="login_b" type='button' onClick={() => Router.push('/login')}>Log in</button>
-                  <GrLogin/>
+                  {/* <GrLogin/> */}
                   
             </div>
         </div>
