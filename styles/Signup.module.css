@@ -38,3 +38,9 @@
     cursor: pointer;
   }
   
+  .error {
+    text-align: center;
+    color: #cf0000;
+    padding-bottom: 5px;
+
+  }

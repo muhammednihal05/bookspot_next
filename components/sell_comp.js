@@ -1,9 +1,12 @@
 import React from 'react';
 import styles from '../styles/sell_comp.module.css';
-import Router from 'next/router';
+import { useRouter } from 'next/router';
 
 
-function sell_comp({id,title,author,image,user_name,email}) {
+function sell_comp({title,author,image,user_name,email, seller}) {
+
+  const router = useRouter()
+
   return (
     <div className={styles.sell_row}>
         <div className={styles.left_info}>
@@ -12,7 +15,7 @@ function sell_comp({id,title,author,image,user_name,email}) {
         </div>
         <div className={styles.center_info}>
             <img src={image} alt="" />
-            <button className="" type='button' onClick={() => Router.push('/join_auc')}>Join Bidding</button>
+            { !seller && <button type='button' onClick={() => router.push(`${router.asPath}/join`)}>Join Bidding</button>}
         </div>
         <div className={styles.right_info}>
             <p className={styles.product_info}>{user_name}</p>
