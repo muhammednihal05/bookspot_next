@@ -29,7 +29,7 @@ function Login() {
           <input className={styles.input} type="file" id="book_image" name="book_image" />
           <br />
           <br />
-          <button type='button' onClick={() => Router.push('/auction')}>Proceed</button>
+          <button type='button' onClick={() => Router.push('/ap_2')}>Proceed</button>
         </form>
       </div>
     </div>
