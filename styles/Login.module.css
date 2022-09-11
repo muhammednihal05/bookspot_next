@@ -17,11 +17,19 @@
     outline-color: transparent;
     background-color: white;
   }
+
+  .error {
+    text-align: center;
+    background-color: #cf0000;
+    padding-bottom: 50px;
+
+  }
   
   .loginParentDiv button {
     width: 100%;
     height: 48px;
     /* border-color: transparent; */
+    margin-top: 10px;
     background-color: #002f34;
     color: whitesmoke;
     font-weight: 900;
