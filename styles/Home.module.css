@@ -18,7 +18,7 @@
     height: 175px;
     position: fixed;
     top: 50%;
-    left: 25%;
+    left: 35%;
     transform: translate(-50%, -50%);
     border-radius: 6px;
     background-color: green;
@@ -40,7 +40,7 @@
     height: 175px;
     position: fixed;
     top: 50%;
-    left: 45%;
+    left: 65%;
     transform: translate(-50%, -50%);
     border-radius: 6px;
     background-color: green;
